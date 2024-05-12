@@ -3,7 +3,7 @@
 // setTimeout(() => $(".loader-wrapper").addClass("show"), 0),
 //   setTimeout(() => $(".loader-wrapper").removeClass("show"), 2500);
 function loader() {
-  $(".loader-wrapper").removeClass("show");
+  $(".loader-wrapper").showClass("loader-hide");
 }
 
 // 'load' 웹 페이지가 모든 리소스(이미지, 스크립트 파일, 스타일시트 등)와 함께 완전히 로드되었을 때 발생
